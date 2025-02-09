@@ -1,9 +1,9 @@
-import Nav from "../../components/Nav"
+import Header from "../../components/Header"
 
 const Profile = () => {
   return (
     <div>
-      <Nav />
+      <Header />
       <h1>Profile page</h1>
     </div>
   )
