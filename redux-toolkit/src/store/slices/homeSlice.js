@@ -1,7 +1,8 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-  allProducts: ['some']
+  allProducts: ['some'],
+  sectionTitle: 'All products'
 }
 
 const homeSlice = createSlice({
@@ -15,9 +16,12 @@ const homeSlice = createSlice({
         ...initialState.allProducts,
         ...action.payload
       ]
+    },
+    updateSectionTitle (initialState, action) {
+      initialState.sectionTitle = action.payload
     }
   }
 })
 
-export const { updateAllProducts } = homeSlice.actions
+export const { updateAllProducts, updateSectionTitle } = homeSlice.actions
 export default homeSlice.reducer
