@@ -1,10 +1,12 @@
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router'
+import { Provider } from 'react-redux'
 
 import Home from './pages/Home'
 import Product from './pages/Product'
 import Cart from './pages/Cart'
 import Profile from './pages/Profile'
+import store from './store'
 
 const rootElm = document.getElementById('root')
 const root = createRoot(rootElm)
@@ -33,11 +35,13 @@ const items = [
 ]
 
 root.render(
-  <BrowserRouter>
-    <Routes>
-      {items.map(({ key, url, component }) => (
-        <Route key={key} path={url} Component={component} />
-      ))}
-    </Routes>
-  </BrowserRouter>
+  <Provider store={store}>
+    <BrowserRouter>
+      <Routes>
+        {items.map(({ key, url, component }) => (
+          <Route key={key} path={url} Component={component} />
+        ))}
+      </Routes>
+    </BrowserRouter>
+  </Provider>
 )
