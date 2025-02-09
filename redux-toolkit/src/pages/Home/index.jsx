@@ -1,8 +1,9 @@
+import { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 
-import Nav from "../../components/Nav"
+import Header from '../../components/Header'
+
 import { updateAllProducts, updateSectionTitle } from '../../store/slices/homeSlice'
-import { useEffect } from 'react'
 
 const HomePage = () => {
   /*
@@ -19,7 +20,7 @@ const HomePage = () => {
   useEffect(() => {
     dispatch(updateAllProducts([1, 2, 3]))
     setTimeout(() => {
-      console.log("updating section title from setTimeout..")
+      console.log('updating section title from setTimeout..')
       dispatch(updateSectionTitle('It\'s Sale Time!'))
     }, 2000)
   }, [])
@@ -29,7 +30,7 @@ const HomePage = () => {
   
   return (
     <div>
-      <Nav />
+      <Header navKey='home' />
       <h1>Home page</h1>
     </div>
   )
