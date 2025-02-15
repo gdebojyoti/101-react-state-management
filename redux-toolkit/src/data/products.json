@@ -1,0 +1,62 @@
+[
+  {
+    "key": "44473977",
+    "url": "https://www.goodreads.com/book/show/44473977-batman-by-scott-snyder-greg-capullo-omnibus-vol-1",
+    "title": "Batman by Scott Snyder & Greg Capullo Omnibus, Vol. 1",
+    "thumbnailUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1649482257i/44473977._SY75_.jpg",
+    "rating": 4.57,
+    "totalRatings": 669,
+    "publisher": "DC",
+    "price": 100
+  },
+  {
+    "key": "6736219",
+    "url": "https://www.goodreads.com/book/show/6736219-daredevil-by-brian-michael-bendis-omnibus-vol-2",
+    "title": "Daredevil by Brian Michael Bendis Omnibus, Vol. 2",
+    "thumbnailUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388418145i/6736219._SY75_.jpg",
+    "rating": 4.6,
+    "totalRatings": 605,
+    "publisher": "Marvel",
+    "price": 100
+  },
+  {
+    "key": "58505985",
+    "url": "https://www.goodreads.com/book/show/58505985-thor-by-jason-aaron-omnibus-vol-1",
+    "title": "Thor by Jason Aaron Omnibus, Vol. 1",
+    "thumbnailUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1642987804i/58505985._SY75_.jpg",
+    "rating": 4.57,
+    "totalRatings": 248,
+    "publisher": "Marvel",
+    "price": 100
+  },
+  {
+    "key": "2609533",
+    "url": "https://www.goodreads.com/book/show/2609533-daredevil-by-brian-michael-bendis-omnibus-vol-1",
+    "title": "Daredevil by Brian Michael Bendis Omnibus, Vol. 1",
+    "thumbnailUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388418514i/2609533._SY75_.jpg",
+    "rating": 4.6,
+    "totalRatings": 1091,
+    "publisher": "Marvel",
+    "price": 100
+  },
+  {
+    "key": "26109190",
+    "url": "https://www.goodreads.com/book/show/26109190-gotham-central-omnibus",
+    "title": "Gotham Central Omnibus",
+    "thumbnailUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1518052998i/26109190._SX50_.jpg",
+    "rating": 4.66,
+    "totalRatings": 905,
+    "publisher": "DC",
+    "price": 100
+  },
+  {
+    "key": "38902764",
+    "url": "https://www.goodreads.com/book/show/38902764-batman-omnibus",
+    "title": "Batman Omnibus",
+    "thumbnailUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1534213676i/38902764._SX50_.jpg",
+    "rating": 4.64,
+    "totalRatings": 441,
+    "publisher": "DC",
+    "price": 100
+  }
+]
