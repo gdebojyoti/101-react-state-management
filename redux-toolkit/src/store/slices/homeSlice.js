@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-  allProducts: ['some'],
+  allProducts: [],
   sectionTitle: 'All products'
 }
 
@@ -10,8 +10,6 @@ const homeSlice = createSlice({
   initialState,
   reducers: {
     updateAllProducts: (initialState, action) => {
-      const { allProducts } = initialState
-      console.log("i was called..")
       initialState.allProducts = [
         ...initialState.allProducts,
         ...action.payload
