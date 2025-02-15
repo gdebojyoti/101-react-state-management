@@ -1,0 +1,21 @@
+.product-card {
+  display: flex;
+  width: 300px;
+  /* height: 200px; */
+  padding: 5px;
+  text-decoration: none;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px #0003;
+}
+
+.product-card__thumbnail {
+  width: 100px;
+  aspect-ratio: calc(90 / 131);
+  object-fit: cover;
+}
+
+.product-card__title {
+  margin-left: 5px;
+  color: #000;
+}
