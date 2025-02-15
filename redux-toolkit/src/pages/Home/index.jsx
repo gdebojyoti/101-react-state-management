@@ -5,6 +5,8 @@ import Header from '../../components/Header'
 
 import { updateAllProducts, updateSectionTitle } from '../../store/slices/homeSlice'
 
+import fetchData from './fetchData'
+
 const HomePage = () => {
   /*
    * NOTE: DON'T DO THIS
@@ -13,20 +15,14 @@ const HomePage = () => {
    */
   
   const allProducts = useSelector((state) => state.home.allProducts)
-  // const sectionTitle = useSelector((state) => state.home.sectionTitle)
   
   const dispatch = useDispatch()
 
   useEffect(() => {
-    dispatch(updateAllProducts([1, 2, 3]))
-    setTimeout(() => {
-      console.log('updating section title from setTimeout..')
-      dispatch(updateSectionTitle('It\'s Sale Time!'))
-    }, 2000)
+    fetchData(dispatch)
   }, [])
 
   console.log(allProducts)
-  // console.log(allProducts, sectionTitle)
   
   return (
     <div>
