@@ -1,4 +1,4 @@
-import { updateAllProducts } from '../../store/slices/homeSlice'
+import { updateAllProducts } from 'src/store/slices/homeSlice'
 
 import products from 'src/data/products.json'
 

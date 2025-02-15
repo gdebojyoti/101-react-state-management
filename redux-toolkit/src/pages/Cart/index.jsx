@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux"
 
-import Header from "../../components/Header"
+import Header from "src/components/Header"
 
 const Cart = () => {
   const items = useSelector(state => state.cart.items)
