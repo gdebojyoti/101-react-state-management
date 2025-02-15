@@ -1,0 +1,8 @@
+.home__products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home__products .product-card {
+  margin: 10px 0 0 10px;
+}

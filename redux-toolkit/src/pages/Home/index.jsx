@@ -1,11 +1,11 @@
 import { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 
-import Header from '../../components/Header'
-
-import { updateAllProducts, updateSectionTitle } from '../../store/slices/homeSlice'
+import Header from 'src/components/Header'
+import ProductCard from 'src/components/ProductCard'
 
 import fetchData from './fetchData'
+import './style.css'
 
 const HomePage = () => {
   /*
@@ -28,6 +28,9 @@ const HomePage = () => {
     <div>
       <Header navKey='home' />
       <h1>Home page</h1>
+      <div className='home__products'>
+        {allProducts.map((data) => <ProductCard key={data.key} data={data} />)}
+      </div>
     </div>
   )
 }
